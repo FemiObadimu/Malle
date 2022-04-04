@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap");
+
+* {
+  font-family: "Mukta Malar", sans-serif !important;
+}
+
+.main-clr {
+  color: indigo;
+}
+
+.main-bg,
+hr {
+  background-color: indigo;
+}
+
+.special {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.puff {
+  color: indigo;
+}
+
+/* ======================================FORM========================================== */
+
+.eye {
+  display: block;
+  cursor: pointer;
+}
+
+.no-eye {
+  display: none;
+  cursor: pointer;
+}
